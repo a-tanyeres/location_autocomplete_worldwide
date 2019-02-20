@@ -1,0 +1,50 @@
+input {
+	width: 100%;
+	max-width: 430px;
+	height: 36px;
+    border: none;
+	background-color: rgba(0,0,0,0.04);
+	border-radius: 4px;
+    font-size: 14px;
+    padding: 10px 13px;
+	box-sizing: border-box;
+	transition: all .2s ease-in-out;
+    line-height: 1.4;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+label, p {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.dialog-autocomplete {
+	z-index: 9;
+	margin-top: 37px;
+	position: absolute;
+	cursor: pointer;
+	width: 100%;
+	max-width: 430px;
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+	transition: all .2s ease-in-out;
+}
+
+.dialog-autocomplete span {
+	padding: 15px 10px;
+	font-size: 13px;
+	transition: all 0.2s;
+	display: block;
+	border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.dialog-autocomplete span p {
+	margin: 0px;
+} 
+
+.dialog-autocomplete span:hover {
+	background-color: rgba(0,0,0,0.04);
+}
+
